@@ -4,8 +4,8 @@
 [submodule "buyer-app"]
 	path = buyer-app
 	url = https://github.com/OSSVerse/ossverse-buyer-app
-[submodule "oasp-seller-app"]
-	path = oasp-seller-app
+[submodule "seller-app"]
+	path = seller-app
 	url = https://github.com/OSSVerse/ossverse-seller-app
 [submodule "bap-protocol"]
 	path = bap-protocol
