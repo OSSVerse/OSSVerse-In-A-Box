@@ -1,0 +1,3 @@
+[submodule "marketplace-ui"]
+	path = marketplace-ui
+	url = https://github.com/OSSVerse/ossverse-marketplace-ui
