@@ -1,3 +1,9 @@
 [submodule "marketplace-ui"]
 	path = marketplace-ui
 	url = https://github.com/OSSVerse/ossverse-marketplace-ui
+[submodule "buyer-app"]
+	path = buyer-app
+	url = https://github.com/OSSVerse/ossverse-buyer-app
+[submodule "seller-app"]
+	path = seller-app
+	url = https://github.com/OSSVerse/ossverse-seller-app
