@@ -10,3 +10,6 @@
 [submodule "beckn-onix"]
 	path = beckn-onix
 	url = https://github.com/beckn/beckn-onix.git
+[submodule "oasp-seller-app"]
+	path = oasp-seller-app
+	url = https://github.com/OSSVerse/oasp-seller-app.git
