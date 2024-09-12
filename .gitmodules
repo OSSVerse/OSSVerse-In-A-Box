@@ -4,3 +4,6 @@
 [submodule "oasp-seller-app"]
 	path = oasp-seller-app
 	url = https://github.com/OSSVerse/oasp-seller-app.git
+[submodule "ossverse-buyer-app"]
+	path = ossverse-buyer-app
+	url = https://github.com/OSSVerse/OSSVerse-Buyer-App.git
