@@ -1,12 +1,3 @@
-[submodule "marketplace-ui"]
-	path = marketplace-ui
-	url = https://github.com/OSSVerse/ossverse-marketplace-ui
-[submodule "buyer-app"]
-	path = buyer-app
-	url = https://github.com/OSSVerse/ossverse-buyer-app
-[submodule "bap-protocol"]
-	path = bap-protocol
-	url = https://github.com/beckn/biab-bap-protocol.git
 [submodule "beckn-onix"]
 	path = beckn-onix
 	url = https://github.com/beckn/beckn-onix.git
