@@ -24,7 +24,7 @@ OSSVerse adopts the Beckn open network concept and the protocols to establish th
 
 ## OSSVerse: Streamlining OASP Integration
 
-OSSVerse empowers organizations to leverage the Open Web Application Security Project (OWASP) with minimal effort. This guide outlines the setup process to seamlessly integrate OASP into your environment. Refer to the provided architecture diagram for a visual representation of the components involved.
+OSSVerse empowers organizations to leverage the platform with minimal effort. This guide outlines the setup process to seamlessly integrate OASP into your environment. Refer to the provided architecture diagram for a visual representation of the components involved.
 
 OSSVerse Network Setup:
 This configuration enables OASP to connect with the secure and reliable OSSVerse network, facilitating secure protocol calls and secure exchange of security services & transaction data. Notably, OSSVerse utilizes the beckn-enabled protocol.
