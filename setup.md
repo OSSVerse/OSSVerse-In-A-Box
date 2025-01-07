@@ -352,7 +352,8 @@ Enter your registry URL:
 
 13. Login using root/root.
 
-14. Click on Beckn tab as shown and select Network Domain in drob down. ![alt text](./docs/images/regitry-domain-1.png)
+14. Click on Beckn tab as shown and select Network Domain in drob down. 
+![alt text](./docs/images/regitry-domain-1.png)
 
 15. Click on "+". 
 ![alt text](./docs/images/regitry-domain-2.png)
@@ -452,7 +453,7 @@ Enter your registry URL:
 11. Edit following fields
 ```
 i.	PROTOCOLO_SERVER_URL: <Enter the BAP client URL here>
-ii.	BAP_ID: <ENter the BAP ID we provided during installation>
+ii.	BAP_ID: <Enter the BAP ID we provided during installation>
 iii.	BAP_URL: <Enter the BAP Network URL>
 ```
 
@@ -549,7 +550,7 @@ Enter the Webhook URL:
 
 7. Enter the webhook URL appended with "api/vi/client/handler" e.g http://sellerwebhook.DOMAINNAME.com/api/v1/client/handler
 
-8. On comlete execution of script verify that the bpp-network and bpp-client containers are UP and running.
+8. After complete execution of script, verify that the bpp-network and bpp-client containers are UP and running.
 ```
 # docker ps -a
 ```
@@ -601,10 +602,10 @@ Change the following
 Whitelist the CORS url for sellerapi
 ```
 “cors”: {
-       “whitelistUrls: [
-        "Already existing URL",
-        "Already existing URL",
-          “http://sellerapi.<domain name>.com”
+    “whitelistUrls: [
+   "Already existing URL",
+   "Already existing URL",
+   “http://sellerapi.<domain name>.com”
 ]
 }
 ```
@@ -612,7 +613,7 @@ Also change BPP ID and BPP URL
 ```
 “sellerConfig”: {
 	“BPP_ID”: <BPP ID entered while installing”
-“BPP URL”: <BPP Client URL mapped e.g bppclient.<domain name>.com >
+    “BPP URL”: <BPP Client URL mapped e.g bppclient.<domain name>.com >
 } 
 
 ```
@@ -623,7 +624,7 @@ Also change BPP ID and BPP URL
 # vi ./seller/.env
 ```
 
-17. Change Follwing to point to sellerapi URL e.g http://api.DOMAINNANME.com 
+17. Change follwing to point to sellerapi URL e.g http://api.DOMAINNANME.com 
 
 ```
 OPENFORT_SELLER_APP
@@ -652,7 +653,7 @@ http://sellerapi.DOMAINNAME.com/api-docs/
 22. Change the node image version to 20.11.1. Also change the following variable to point to sellerapi URL and append "api/v1" at the end of URL. e.g http://sellerapi.DOMAINNAME.COM/api/v1
 
 ```
-ENV VITE_API_BASE_URL:
+ENV VITE_API_BASE_URL: <Enter the seller api URL with "api/v1" appended to it at last.>
 ```
 
 23. 
@@ -666,12 +667,11 @@ ENV VITE_API_BASE_URL:
 # docker run -d –name sellerui -p 7001:80 sellerui
 ```
 
-25. Verify that the Seller UI is UP. on browser check the UI at url http://sellerui.DOMAINNAME.com
-
-and also the container for seller ui is UO using 
+25. Verify that the Seller UI container is UP and running using 
 ```
 docker ps -a
 ```
+Also, verify that the Seller UI is accessible at http://sellerui.DOMAINNAME.com
 
 26. Create the Organisation and Products in seller app by following below steps:
 
@@ -715,9 +715,9 @@ docker ps -a
 
     11. Open the POST methid of oasp->products api and click on execute as done above.
 
-    12. Click on try out and enter the access token obtained in step 10 above.
+    12. Click on "Try it out" and enter the access token obtained in step 10 above.
 
-    13. Update the product details in prodcut body and click execute.
+    13. Update the product details in product body and click on execute button.
     ![alt text](./docs/images/Swagger-6.png)
 
     14. Verify 200 OK as response.
