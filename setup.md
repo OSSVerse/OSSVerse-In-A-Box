@@ -418,7 +418,7 @@ Enter BAP Subscriber ID:
 Enter the BAP Network URL:
 ```
 
-5. ENter the BAP Netwrok URL e.g http://bapnetwork.DOMAINNAME.com
+5. Enter the BAP Netwrok URL e.g http://bapnetwork.DOMAINNAME.com
 ```
 Enter your registry URL:
 ```
@@ -486,7 +486,7 @@ iii.	BAP_URL: <Enter the BAP Network URL>
 # vi Dockerfile
 ```
 
-18. Cchange the Node Image version to 20.11.1.
+18. Change the Node Image version to 20.11.1.
 19. Execute
 ```
 # docker build -y buyerappui .
@@ -529,7 +529,7 @@ Proceeding with the setup for BPP...
 Enter BPP Subscriber ID:
 ```
 
-4. ENter the BPP subscriber ID. can be any unique string. Uslally BPP network url used for this. e.g bppnetwork.DOMAINNAME.com
+4. Enter the BPP subscriber ID. can be any unique string. Uslally BPP network url used for this. e.g bppnetwork.DOMAINNAME.com
 
 ```
 Enter BPP Subscriber URL:
@@ -541,7 +541,7 @@ Enter BPP Subscriber URL:
 Enter the Registry URL:
 ```
 
-6. ENter the registry URL e.g http://registry.DOMAINNAME.com/subscribers
+6. Enter the registry URL e.g http://registry.DOMAINNAME.com/subscribers
 
 ```
 Enter the Webhook URL:
@@ -616,7 +616,7 @@ Also change BPP ID and BPP URL
 } 
 
 ```
-15. SAve and exit
+15. Save and exit
 
 16. Open 
 ```
@@ -666,7 +666,7 @@ ENV VITE_API_BASE_URL:
 # docker run -d –name sellerui -p 7001:80 sellerui
 ```
 
-25. Verify that the Selelr UI is UP. on browser check the UI at url http://sellerui.DOMAINNAME.com
+25. Verify that the Seller UI is UP. on browser check the UI at url http://sellerui.DOMAINNAME.com
 
 and also the container for seller ui is UO using 
 ```
@@ -680,10 +680,10 @@ docker ps -a
     http://sellerapi.DOMAINNAME.com/api-docs/
     ```
 
-    2. Expanf the POST method of OASP-APIS->Authentication api as shown.
+    2. Expand the POST method of OASP-APIS->Authentication api as shown.
     ![alt text](./docs/images/Swagger-1.png)
 
-    3. Click TryOut and change the body as follows:
+    3. Click "Try it out" and change the body as follows:
 
     ```
      {
@@ -701,7 +701,7 @@ docker ps -a
     6. Add new organisation by executing POST method for oasp-api->Organisation api.
     ![alt text](./docs/images/Swagger-4.png)
 
-    7. Click on TryOut. Paste the access token copied above into "access-token" field as shown. Do not remove the Bearer key. 
+    7. Click on "Try it out". Paste the access token copied above into "access-token" field as shown. Do not remove the Bearer key. 
 
     Also update the Organisation details in the body such as Organisation Name, Password , email etc. as shown below.
 
