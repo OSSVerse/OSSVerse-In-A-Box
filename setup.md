@@ -295,7 +295,7 @@ Enter your choice:
 ```
 
 4. Enter 2. <br>
-Follwing appears:
+Following appears:
 ```
    Which platform would you like to set up?
 1. Registry
@@ -603,10 +603,10 @@ Whitelist the CORS url for sellerapi
 ```
 “cors”: {
     “whitelistUrls: [
-   "Already existing URL",
-   "Already existing URL",
-   “http://sellerapi.<domain name>.com”
-]
+        "Already existing URL",
+        "Already existing URL",
+        “http://sellerapi.<domain name>.com”
+  ]
 }
 ```
 Also change BPP ID and BPP URL
