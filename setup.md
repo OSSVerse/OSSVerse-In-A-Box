@@ -352,7 +352,7 @@ Enter your registry URL:
 
 13. Login using root/root.
 
-14. Click on Beckn Tab as shown and select Network Domain in drob down. ![alt text](./docs/images/regitry-domain-1.bmp)
+14. Click on Beckn tab as shown and select Network Domain in drob down. ![alt text](./docs/images/regitry-domain-1.png)
 
 15. Click on "+". 
 ![alt text](./docs/images/regitry-domain-2.png)
